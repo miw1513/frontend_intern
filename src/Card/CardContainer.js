@@ -17,7 +17,7 @@ class CardContainer extends Component {
     return (
       <div style={{background: '#F0F8FF'}}>
         <Panel>
-        <p style={{color: 'pink', fontSize: 20}}>
+        <p style={{ fontSize: 20}}>
           {name}
         </p>
         <ImagesContainer image={pic}/>

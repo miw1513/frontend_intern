@@ -7,10 +7,12 @@ class NavbarContainer extends Component {
   render() {
     return (
     
-      <div style={{color: 'pink', fontSize: 20, padding: '32px'}}>
+      <div style={{fontSize: 20, padding: '32px', textAlign: 'center'}}>
        <Grid style={{padding: '10px'}}>
     <Col xs={6} md={4}></Col>
-      <Col xs={6} md={4}> <Image width={92} height={92} src="https://image.shutterstock.com/z/stock-vector-geek-gorilla-logo-cool-gorilla-head-vector-nerdy-monkey-logo-691672750.jpg" circle /></Col>
+    <center>
+      <Col  xs={6} md={4}> <Image width={92} height={92} src="https://image.shutterstock.com/z/stock-vector-geek-gorilla-logo-cool-gorilla-head-vector-nerdy-monkey-logo-691672750.jpg" circle /></Col>
+    </center>  
       <Col xsHidden md={4}></Col>
   </Grid>
 
