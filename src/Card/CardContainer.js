@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ImagesContainer from './Images'
 import CardContentContainer from './CardContent'
-
+import { Button, FormControl, Form, Grid, Col, Row, Image, Thumbnail, Tabs, Tab } from 'react-bootstrap';
 class CardContainer extends Component {
   constructor(props){
     super(props)
@@ -15,12 +15,7 @@ class CardContainer extends Component {
     const {id, name, pic, description} = this.props
     console.log(this.props)
     return (
-      <div style={{
-        backgroundColor: 'blue', 
-        width: "50%",
-        border: "3px solid green",
-        padding: "10px",
-      }}>
+      <div>
         <p style={{color: 'pink', fontSize: 20}}>
           {name}
         </p>

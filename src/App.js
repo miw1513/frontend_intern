@@ -6,7 +6,7 @@ import FooterConatiner from './Footer'
 import ContentContainer from './Content'
 import CardContainer from './Card'
 import data from './../src/data.json'
-
+import { Button, FormControl, Form, Grid, Col, Row, Image, Thumbnail, Tabs, Tab } from 'react-bootstrap';
 
 class App extends Component {
   constructor(props){
@@ -20,7 +20,13 @@ class App extends Component {
   card = () => {
     return (
       data.map((item)=>{
-        return <CardContainer {...item}/>
+        const cardBox =   (
+        <Col sm={6} md={3}>
+        <CardContainer {...item}/>
+        </Col>
+
+        )
+        return cardBox
       }) 
     )
   }
@@ -31,7 +37,11 @@ class App extends Component {
         
         <NavbarContainer />
         <ContentContainer />
+        <Grid>
+        <Row className="show-grid">
         {this.card()}
+        </Row>
+      </Grid>
         <FooterConatiner />
       </div>
     )
