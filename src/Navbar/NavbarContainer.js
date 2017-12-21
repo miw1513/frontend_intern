@@ -8,30 +8,18 @@ class NavbarContainer extends Component {
     return (
       <div className="App">
        <Grid>
-    <Row className="show-grid">
-      <Col xs={6} md={4}>  
-      </Col>
-
-      <Col xs={6} md={4}>
-      <Image width={92} height={92} src="https://image.shutterstock.com/z/stock-vector-geek-gorilla-logo-cool-gorilla-head-vector-nerdy-monkey-logo-691672750.jpg" circle />
-      </Col>
-
-      <Col xs={6} md={4}>  
-       </Col>
-    
-    </Row>
+    <Col xs={6} md={4}></Col>
+      <Col xs={6} md={4}> <Image width={92} height={92} src="https://image.shutterstock.com/z/stock-vector-geek-gorilla-logo-cool-gorilla-head-vector-nerdy-monkey-logo-691672750.jpg" circle /></Col>
+      <Col xsHidden md={4}></Col>
   </Grid>
 
   <Grid>
     <Row className="show-grid">
 
-    <Col xs={12} md={8}>
-    <Tabs defaultActiveKey={2} id="uncontrolled-tab-example">
-    <Tab eventKey={1} title="Tab 1"></Tab>
-    <Tab eventKey={2} title="Tab 2"></Tab>
-    <Tab eventKey={3} title="Tab 3" ></Tab>
-    </Tabs>
-  </Col>
+    <Col sm={6} md={3}>HOMEPAGE</Col>
+    <Col sm={6} md={3}>PRODUCT</Col>
+    <Col sm={6} md={3}>ABOUT</Col>
+    <Col sm={6} md={3}>CONTACT</Col>
 
     </Row>
   </Grid>
