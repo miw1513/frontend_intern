@@ -3,7 +3,7 @@ import { Button, FormControl, Form, Grid, Col, Row, Image, Thumbnail, Tabs, Tab 
 class FooterContainer extends Component {
   render() {
     return (
-      <div style={{background: '#F0F8FF', fontSize: 20, padding: '32px'}}>
+      <div style={{background: '#DCDCDC', padding: '32px'}}>
       
           <Grid>
           <Row className="show-grid">

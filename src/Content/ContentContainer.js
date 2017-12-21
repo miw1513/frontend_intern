@@ -3,7 +3,7 @@ import { Button, FormControl, Form, Grid, Col, Row, Image, Thumbnail, Tabs, Tab,
 class ContentContainer extends Component {
   render() {
     return (
-      <div style={{background: '#F0F8FF', fontSize: 20}}>
+      <div style={{}}>
       <Jumbotron>
      <Grid>
      <Col xs={6} md={4}></Col>
