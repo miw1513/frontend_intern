@@ -6,7 +6,8 @@ import { Button, FormControl, Form, Grid, Col, Row, Image, Thumbnail, Tabs, Tab 
 class NavbarContainer extends Component {
   render() {
     return (
-      <div className="App">
+    
+      <div style={{color: 'pink', fontSize: 20}}>
        <Grid>
     <Col xs={6} md={4}></Col>
       <Col xs={6} md={4}> <Image width={92} height={92} src="https://image.shutterstock.com/z/stock-vector-geek-gorilla-logo-cool-gorilla-head-vector-nerdy-monkey-logo-691672750.jpg" circle /></Col>
